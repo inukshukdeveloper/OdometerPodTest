@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DE2990A235A3E82003A059E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE29909235A3E82003A059E /* AppDelegate.swift */; };
+		4DE2990C235A3E82003A059E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2990B235A3E82003A059E /* SceneDelegate.swift */; };
+		4DE2990E235A3E82003A059E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2990D235A3E82003A059E /* ViewController.swift */; };
+		4DE29911235A3E82003A059E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE2990F235A3E82003A059E /* Main.storyboard */; };
+		4DE29914235A3E82003A059E /* OdometerPodTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DE29912235A3E82003A059E /* OdometerPodTest.xcdatamodeld */; };
+		4DE29916235A3E83003A059E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE29915235A3E83003A059E /* Assets.xcassets */; };
+		4DE29919235A3E83003A059E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE29917235A3E83003A059E /* LaunchScreen.storyboard */; };
+		4DE29924235A3E83003A059E /* OdometerPodTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE29923235A3E83003A059E /* OdometerPodTestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DE29920235A3E83003A059E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DE298FE235A3E82003A059E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DE29905235A3E82003A059E;
+			remoteInfo = OdometerPodTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DE29906235A3E82003A059E /* OdometerPodTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OdometerPodTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE29909235A3E82003A059E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DE2990B235A3E82003A059E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4DE2990D235A3E82003A059E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DE29910235A3E82003A059E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DE29913235A3E82003A059E /* OdometerPodTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OdometerPodTest.xcdatamodel; sourceTree = "<group>"; };
+		4DE29915235A3E83003A059E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DE29918235A3E83003A059E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DE2991A235A3E83003A059E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE2991F235A3E83003A059E /* OdometerPodTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OdometerPodTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE29923235A3E83003A059E /* OdometerPodTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdometerPodTestTests.swift; sourceTree = "<group>"; };
+		4DE29925235A3E83003A059E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DE29903235A3E82003A059E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE2991C235A3E83003A059E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DE298FD235A3E82003A059E = {
+			isa = PBXGroup;
+			children = (
+				4DE29908235A3E82003A059E /* OdometerPodTest */,
+				4DE29922235A3E83003A059E /* OdometerPodTestTests */,
+				4DE29907235A3E82003A059E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DE29907235A3E82003A059E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DE29906235A3E82003A059E /* OdometerPodTest.app */,
+				4DE2991F235A3E83003A059E /* OdometerPodTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DE29908235A3E82003A059E /* OdometerPodTest */ = {
+			isa = PBXGroup;
+			children = (
+				4DE29909235A3E82003A059E /* AppDelegate.swift */,
+				4DE2990B235A3E82003A059E /* SceneDelegate.swift */,
+				4DE2990D235A3E82003A059E /* ViewController.swift */,
+				4DE2990F235A3E82003A059E /* Main.storyboard */,
+				4DE29915235A3E83003A059E /* Assets.xcassets */,
+				4DE29917235A3E83003A059E /* LaunchScreen.storyboard */,
+				4DE2991A235A3E83003A059E /* Info.plist */,
+				4DE29912235A3E82003A059E /* OdometerPodTest.xcdatamodeld */,
+			);
+			path = OdometerPodTest;
+			sourceTree = "<group>";
+		};
+		4DE29922235A3E83003A059E /* OdometerPodTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DE29923235A3E83003A059E /* OdometerPodTestTests.swift */,
+				4DE29925235A3E83003A059E /* Info.plist */,
+			);
+			path = OdometerPodTestTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DE29905235A3E82003A059E /* OdometerPodTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE29928235A3E83003A059E /* Build configuration list for PBXNativeTarget "OdometerPodTest" */;
+			buildPhases = (
+				4DE29902235A3E82003A059E /* Sources */,
+				4DE29903235A3E82003A059E /* Frameworks */,
+				4DE29904235A3E82003A059E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OdometerPodTest;
+			productName = OdometerPodTest;
+			productReference = 4DE29906235A3E82003A059E /* OdometerPodTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DE2991E235A3E83003A059E /* OdometerPodTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE2992B235A3E83003A059E /* Build configuration list for PBXNativeTarget "OdometerPodTestTests" */;
+			buildPhases = (
+				4DE2991B235A3E83003A059E /* Sources */,
+				4DE2991C235A3E83003A059E /* Frameworks */,
+				4DE2991D235A3E83003A059E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DE29921235A3E83003A059E /* PBXTargetDependency */,
+			);
+			name = OdometerPodTestTests;
+			productName = OdometerPodTestTests;
+			productReference = 4DE2991F235A3E83003A059E /* OdometerPodTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DE298FE235A3E82003A059E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Inukshuk, LLC";
+				TargetAttributes = {
+					4DE29905235A3E82003A059E = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					4DE2991E235A3E83003A059E = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 4DE29905235A3E82003A059E;
+					};
+				};
+			};
+			buildConfigurationList = 4DE29901235A3E82003A059E /* Build configuration list for PBXProject "OdometerPodTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DE298FD235A3E82003A059E;
+			productRefGroup = 4DE29907235A3E82003A059E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DE29905235A3E82003A059E /* OdometerPodTest */,
+				4DE2991E235A3E83003A059E /* OdometerPodTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DE29904235A3E82003A059E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE29919235A3E83003A059E /* LaunchScreen.storyboard in Resources */,
+				4DE29916235A3E83003A059E /* Assets.xcassets in Resources */,
+				4DE29911235A3E82003A059E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE2991D235A3E83003A059E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DE29902235A3E82003A059E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE2990E235A3E82003A059E /* ViewController.swift in Sources */,
+				4DE2990A235A3E82003A059E /* AppDelegate.swift in Sources */,
+				4DE29914235A3E82003A059E /* OdometerPodTest.xcdatamodeld in Sources */,
+				4DE2990C235A3E82003A059E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE2991B235A3E83003A059E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE29924235A3E83003A059E /* OdometerPodTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DE29921235A3E83003A059E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DE29905235A3E82003A059E /* OdometerPodTest */;
+			targetProxy = 4DE29920235A3E83003A059E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DE2990F235A3E82003A059E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DE29910235A3E82003A059E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DE29917235A3E83003A059E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DE29918235A3E83003A059E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DE29926235A3E83003A059E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DE29927235A3E83003A059E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DE29929235A3E83003A059E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OdometerPodTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inukshuk.OdometerPodTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DE2992A235A3E83003A059E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OdometerPodTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inukshuk.OdometerPodTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DE2992C235A3E83003A059E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OdometerPodTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inukshuk.OdometerPodTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OdometerPodTest.app/OdometerPodTest";
+			};
+			name = Debug;
+		};
+		4DE2992D235A3E83003A059E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OdometerPodTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inukshuk.OdometerPodTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OdometerPodTest.app/OdometerPodTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DE29901235A3E82003A059E /* Build configuration list for PBXProject "OdometerPodTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE29926235A3E83003A059E /* Debug */,
+				4DE29927235A3E83003A059E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE29928235A3E83003A059E /* Build configuration list for PBXNativeTarget "OdometerPodTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE29929235A3E83003A059E /* Debug */,
+				4DE2992A235A3E83003A059E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE2992B235A3E83003A059E /* Build configuration list for PBXNativeTarget "OdometerPodTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE2992C235A3E83003A059E /* Debug */,
+				4DE2992D235A3E83003A059E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4DE29912235A3E82003A059E /* OdometerPodTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4DE29913235A3E82003A059E /* OdometerPodTest.xcdatamodel */,
+			);
+			currentVersion = 4DE29913235A3E82003A059E /* OdometerPodTest.xcdatamodel */;
+			path = OdometerPodTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4DE298FE235A3E82003A059E /* Project object */;
+}
