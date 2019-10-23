@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A47868BEE0D54C22DEAAB33 /* libPods-OdometerPodTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A672606715DB1E5A874835EB /* libPods-OdometerPodTest.a */; };
 		4DE2990A235A3E82003A059E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE29909235A3E82003A059E /* AppDelegate.swift */; };
 		4DE2990C235A3E82003A059E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2990B235A3E82003A059E /* SceneDelegate.swift */; };
 		4DE2990E235A3E82003A059E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2990D235A3E82003A059E /* ViewController.swift */; };
@@ -40,6 +41,9 @@
 		4DE2991F235A3E83003A059E /* OdometerPodTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OdometerPodTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE29923235A3E83003A059E /* OdometerPodTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdometerPodTestTests.swift; sourceTree = "<group>"; };
 		4DE29925235A3E83003A059E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A672606715DB1E5A874835EB /* libPods-OdometerPodTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OdometerPodTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB839DEB1E5124DA143885A6 /* Pods-OdometerPodTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OdometerPodTest.release.xcconfig"; path = "Target Support Files/Pods-OdometerPodTest/Pods-OdometerPodTest.release.xcconfig"; sourceTree = "<group>"; };
+		E9B891E508BDDFDFC71A4D1F /* Pods-OdometerPodTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OdometerPodTest.debug.xcconfig"; path = "Target Support Files/Pods-OdometerPodTest/Pods-OdometerPodTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A47868BEE0D54C22DEAAB33 /* libPods-OdometerPodTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +65,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46BE090B847221E14EFC6B9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A672606715DB1E5A874835EB /* libPods-OdometerPodTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4DE298FD235A3E82003A059E = {
 			isa = PBXGroup;
 			children = (
 				4DE29908235A3E82003A059E /* OdometerPodTest */,
 				4DE29922235A3E83003A059E /* OdometerPodTestTests */,
 				4DE29907235A3E82003A059E /* Products */,
+				699D842FB8045675A3489197 /* Pods */,
+				46BE090B847221E14EFC6B9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +117,16 @@
 			path = OdometerPodTestTests;
 			sourceTree = "<group>";
 		};
+		699D842FB8045675A3489197 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9B891E508BDDFDFC71A4D1F /* Pods-OdometerPodTest.debug.xcconfig */,
+				BB839DEB1E5124DA143885A6 /* Pods-OdometerPodTest.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DE29928235A3E83003A059E /* Build configuration list for PBXNativeTarget "OdometerPodTest" */;
 			buildPhases = (
+				3722FB55725068E8D10958E5 /* [CP] Check Pods Manifest.lock */,
 				4DE29902235A3E82003A059E /* Sources */,
 				4DE29903235A3E82003A059E /* Frameworks */,
 				4DE29904235A3E82003A059E /* Resources */,
+				4CCE08248CCB494814C145A3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,6 +224,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3722FB55725068E8D10958E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OdometerPodTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CCE08248CCB494814C145A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OdometerPodTest/Pods-OdometerPodTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OdometerPodTest/Pods-OdometerPodTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OdometerPodTest/Pods-OdometerPodTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4DE29902235A3E82003A059E /* Sources */ = {
@@ -364,6 +433,7 @@
 		};
 		4DE29929235A3E83003A059E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B891E508BDDFDFC71A4D1F /* Pods-OdometerPodTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +451,7 @@
 		};
 		4DE2992A235A3E83003A059E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB839DEB1E5124DA143885A6 /* Pods-OdometerPodTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
