@@ -6,6 +6,6 @@ target 'OdometerPodTest' do
   # use_frameworks!
 
   # Pods for OdometerPodTest
-  pod 'Odometer', '1.0.1'
+  pod 'Odometer', '1.0.3'
 
 end
