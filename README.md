@@ -1,3 +1,5 @@
+(In Archive Mode)
+
 #  OdometerPodTest
 
 Demo Xcode project showing how to use the odometer custom view CocoaPod.
